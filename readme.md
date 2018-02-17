@@ -10,10 +10,14 @@ value after the first time
 Start the app with 
 > ember s
 
+### Step 1
+
 - Access the home page on http://localhost:4200
 
 ![Initial state](images/Step1.jpg)
 
+
+### Step 2
 - Input a character on the input text
 
 ![Coerced value](images/Step2.jpg)
@@ -21,6 +25,7 @@ Start the app with
 You get the correct value defined by the computed property.
 No difference between ember state and dom state.
 
+### Step 3
 - Input another character
 
 ![Failed value](images/Step3.jpg)
