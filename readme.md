@@ -16,14 +16,14 @@ Start the app with
 
 - Input a character on the input text
 
-![Coerced value](images/Step 2.jpg)
+![Coerced value](images/Step2.jpg)
 
 You get the correct value defined by the computed property.
 No difference between ember state and dom state.
 
 - Input another character
 
-![Failed value](images/Step 3.jpg)
+![Failed value](images/Step3.jpg)
 
 Ember doesn't detect the input as value change, and doesn't reflect 
 the computed value on the dom 
